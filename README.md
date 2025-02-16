@@ -23,7 +23,11 @@ This project enables wireless control of DJI Ronin gimbals through a network con
 
 - ESP8266 or ESP32 microcontroller
 - DJI Ronin gimbal (tested on Ronin SC, should work with other models)
-- SBUS connection cable
+- Connection cables
+- 1x Transistor 2N2222
+- 1x 1K Resistor
+- 1x 5K Resistor
+NOTE: Have a look to wiring schema image
 
 ## 📋 Installation Guide
 
@@ -55,7 +59,7 @@ This project enables wireless control of DJI Ronin gimbals through a network con
 - Enter your network SSID and password
 - Optionally configure static IP
 5. Save and wait for the device to restart
-  NOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
+NOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
         if the ESP can't connect to wifi for a minute, it will pass to setup mode
 
 ## 🎮 Usage
