@@ -37,6 +37,7 @@ NOTE: Have a look to wiring schema image
    - SBUS signal → GPIO pin (as defined in code)
    - GND → GND
    - 5V → 5V (if needed)
+NOTE: Have a look to wiring schema image
 
 ### 2. Software Setup
 
