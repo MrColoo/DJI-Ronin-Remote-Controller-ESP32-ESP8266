@@ -27,7 +27,7 @@ This project enables wireless control of DJI Ronin gimbals through a network con
 - 1x Transistor 2N2222
 - 1x 1K Resistor
 - 1x 5K Resistor
-NOTE: Have a look to wiring schema image
+\nNOTE: Have a look to wiring schema image
 
 ## 📋 Installation Guide
 
@@ -37,7 +37,7 @@ NOTE: Have a look to wiring schema image
    - SBUS signal → GPIO pin (as defined in code)
    - GND → GND
    - 5V → 5V (if needed)
-NOTE: Have a look to wiring schema image
+\nNOTE: Have a look to wiring schema image
 
 ### 2. Software Setup
 
@@ -60,7 +60,7 @@ NOTE: Have a look to wiring schema image
 - Enter your network SSID and password
 - Optionally configure static IP
 5. Save and wait for the device to restart
-NOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
+\nNOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
         if the ESP can't connect to wifi for a minute, it will pass to setup mode
 
 ## 🎮 Usage
