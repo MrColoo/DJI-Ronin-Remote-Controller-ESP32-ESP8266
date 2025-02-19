@@ -3,7 +3,7 @@
 #include <DNSServer.h>
 #include <EEPROM.h>
 #include <WebSocketsServer.h>
-#include <BMC_SBUS.h>
+#include <Ronin_SBUS.h>
 
 // Access Point Setup
 const char* AP_SSID = "RoninControl_Setup";
@@ -32,7 +32,7 @@ struct WifiConfig {
 WifiConfig wificonfig;
 
 // Initialize SBUS interface
-BMC_SBUS mySBUS;
+Ronin_SBUS mySBUS;
 
 // Constants used to define min, mid and max values & frame delay
 const int sbusMID         = 1024;   // Neutral val
