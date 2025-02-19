@@ -57,7 +57,7 @@ NOTE: Have a look to wiring schema image
 
 1. Power up the device
 2. Connect to the WiFi network "RoninControl_Setup"
-3. Automatically the captive portal should open up, if it doesn't happen, open a web browser and navigate to `192.168.4.1`
+3. Automatically the captive portal should open up, if it doesn't, open a web browser and navigate to `192.168.4.1`
 4. Configure your WiFi settings:
 - Enter your network SSID and password
 - Optionally configure static IP
