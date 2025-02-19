@@ -47,7 +47,7 @@ NOTE: Have a look to wiring schema image
    - DNSServer
    - EEPROM
    - WebSocketsServer
-   - BMC_SBUS
+   - Ronin_SBUS // Copy the library folder under Code folder here on github and put into your libraries folder
 
 2. Upload the code to your ESP device
 
@@ -55,13 +55,13 @@ NOTE: Have a look to wiring schema image
 
 1. Power up the device
 2. Connect to the WiFi network "RoninControl_Setup"
-3. Open a web browser and navigate to `192.168.4.1`
+3. Automatically the captive portal should open up, if it doesn't happen, open a web browser and navigate to `192.168.4.1`
 4. Configure your WiFi settings:
 - Enter your network SSID and password
 - Optionally configure static IP
 5. Save and wait for the device to restart  
 NOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
-        if the ESP can't connect to wifi for a minute, it will pass to setup mode
+        if the ESP can't connect to wifi after some attempts, it will restart in setup mode
 
 ## 🎮 Usage
 
@@ -92,6 +92,8 @@ Example: `ch1:1024` sets channel 1 to center position
 - Center: 1024
 - Maximum: 1696
 
+NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
+
 ## 🔧 Technical Details
 
 ### Key Components
@@ -101,18 +103,16 @@ Example: `ch1:1024` sets channel 1 to center position
 - **SBUS Protocol**: Communicates with Ronin gimbal
 - **Web Interface**: Provides configuration and monitoring
 
-### Reset Function
-
-- Press the RST button to clear WiFi settings
-- Device will restart in setup mode
-- If the device cannot connect to WiFi it will restart in setup mode
-
 ## ⚠️ Important Notes
 
-- Tested primarily with DJI Ronin SC, but should work with other models, you will have to adjust s-bus values
+- Tested primarily with DJI Ronin SC, but should work with other models, you may will have to adjust s-bus values in the Ronin_SBUS library
 - Ensure stable WiFi connection for reliable control
 - Keep within range of WiFi network
 - Monitor the log interface for debugging
+
+## 📚 Library
+
+- Ronin_SBUS is a library I wrote, starting from the original [BMC_SBUS](https://github.com/boldstelvis/BMC_SBUS) library. Thanks to the developer.
 
 ## 🤝 Contributing
 
