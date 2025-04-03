@@ -145,6 +145,7 @@ void startNormalMode() {
         sendLog("WebSocket Server started on port 81");
     } else {
         sendLog("Connection failed, starting setup mode");
+        handleReset();
         startSetupMode();
     }
 }
