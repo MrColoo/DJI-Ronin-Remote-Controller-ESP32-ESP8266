@@ -36,7 +36,7 @@ NOTE: Have a look to wiring schema image
 ### 1. Hardware Setup
 
 1. Connect the ESP board to the Ronin's SBUS port:
-   - SBUS signal → GPIO pin (as defined in code)
+   - SBUS signal → Transistor 2N2222 (look at wiring schema) -> GPIO pin (as defined in code)
    - GND → GND
    - 5V → 5V (if needed)  
 NOTE: Have a look to wiring schema image
