@@ -9,7 +9,7 @@ A wireless remote control solution for DJI Ronin gimbals using ESP8266/ESP32 mic
 
 This project enables wireless control of DJI Ronin gimbals through a network connection, utilizing the SBUS protocol. It creates a bridge between a WebSocket client (like Chataigne software) and the Ronin's SBUS input, allowing remote control via gamepad or other input devices.
 
-![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/Image%20Gallery/IMG_20250216_172927372.jpg)
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/Image%20Gallery/full-overview-1.jpg)
 
 ### ✨ Features
 
