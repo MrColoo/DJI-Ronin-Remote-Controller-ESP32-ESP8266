@@ -73,8 +73,11 @@ NOTE: if the ESP connects successfully to the wifi, the generated wifi will disa
 2. Access the web interface using the device's IP address
 3. Available pages:
 - Status page: Shows connection info and device status
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/Image%20Gallery/Connection%20Status.png)
 - Log page: Real-time operation logs
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/Image%20Gallery/Logs.png)
 - WiFi Configuration: Network settings
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/Image%20Gallery/Setup%20Mode.png)
 
 ### WebSocket Control
 
