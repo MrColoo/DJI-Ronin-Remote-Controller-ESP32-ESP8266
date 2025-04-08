@@ -113,6 +113,18 @@ NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 - **SBUS Protocol**: Communicates with Ronin gimbal
 - **Web Interface**: Provides configuration and monitoring
 
+## 🐛 Known Bugs
+
+1. The gimbal mode 2 is set by default and it is not changeable
+2. If only one websocket movement command is sent (for ex. joystick stick all to the right), the gimbal will move and then stop after some seconds, instead of continuing to move.
+
+## 🚧 Unimplemented Features (Work in progress)
+
+1. Gimbal mode selector
+2. Gimbal Recenter
+3. Start and Stop Recording
+4. Remoted controlled motorized Zoom / Focus
+
 ## ⚠️ Important Notes
 
 - Tested primarily with DJI Ronin SC, but should work with other models, you may will have to adjust s-bus values in the Ronin_SBUS library
