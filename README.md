@@ -147,7 +147,3 @@ NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-## 📄 License
-
-This project is licensed under the MIT License
