@@ -124,6 +124,7 @@ NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 2. Gimbal Recenter
 3. Start and Stop Recording
 4. Remoted controlled motorized Zoom / Focus
+5. Complete debug feature through logs
 
 ## ⚠️ Important Notes
 
