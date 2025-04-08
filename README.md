@@ -131,6 +131,7 @@ NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 3. Start and Stop Recording
 4. Remote controlled motorized Zoom / Focus
 5. Complete debug feature through logs
+6. Extend complete compatibility to other Ronin models (right know only Ronin SC is supported without code modifications)
 
 ## ⚠️ Important Notes
 
