@@ -21,6 +21,10 @@ This project enables wireless control of DJI Ronin gimbals through a network con
 - 🔄 Easy reset functionality
 - 🎮 Compatible with Chataigne software for gamepad input or any WebSocket clients
 
+### 🎥 Demo Video
+
+https://github.com/user-attachments/assets/ff83e8b6-8403-40a6-982f-c90003f82979
+
 ## 🛠️ Hardware Requirements
 
 - ESP8266 or ESP32 microcontroller
