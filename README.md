@@ -123,14 +123,14 @@ NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 1. Gimbal mode selector
 2. Gimbal Recenter
 3. Start and Stop Recording
-4. Remoted controlled motorized Zoom / Focus
+4. Remote controlled motorized Zoom / Focus
 5. Complete debug feature through logs
 
 ## ⚠️ Important Notes
 
 - Tested primarily with DJI Ronin SC, but should work with other models, you may will have to adjust s-bus values in the Ronin_SBUS library
-- Ensure stable WiFi connection for reliable control
-- Keep within range of WiFi network
+- Ensure a stable WiFi connection for reliable control
+- Keep within range of the WiFi network
 - Monitor the log interface for debugging
 
 ## 📚 Library
