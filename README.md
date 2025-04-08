@@ -68,11 +68,12 @@ NOTE: Have a look to wiring schema image
 2. Connect to the WiFi network "RoninControl_Setup"
 3. Automatically the captive portal should open up, if it doesn't, open a web browser and navigate to `192.168.4.1`
 4. Configure your WiFi settings:
-- Enter your network SSID and password
-- Optionally configure static IP
-5. Save and wait for the device to restart  
-NOTE: if the ESP connects successfully to the wifi, the generated wifi will disappear.
-        if the ESP can't connect to wifi after some attempts, it will restart in setup mode
+   - Enter your network SSID and password
+   - Optionally configure static IP
+5. Save and wait for the device to restart
+  
+NOTE: ✔ If the ESP connects successfully to the wifi, the generated wifi will disappear.
+     ❌ If the ESP can't connect to wifi after some attempts, it will restart in setup mode
 
 ## 🎮 Usage
 
@@ -99,12 +100,13 @@ Example: `ch1:1024` sets channel 1 to center position
 
 ### Using with Chataigne
 
-1. Configure Chataigne's WebSocket module to connect to the device
-2. Map gamepad inputs to WebSocket messages
-3. Use the following value ranges:
-- Minimum: 352
-- Center: 1024
-- Maximum: 1696
+1. Download from this repo the Chataigne Setup file
+2. Configure Chataigne's WebSocket module to connect to the device
+3. Map gamepad inputs to WebSocket messages
+   -> Use the following value ranges:
+      - Minimum: 352
+      - Center: 1024
+      - Maximum: 1696
 
 NOTE: For Ronin SC I made only PAN and TILT work (channels 1 and 2)
 
