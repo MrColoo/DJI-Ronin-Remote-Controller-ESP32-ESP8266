@@ -38,8 +38,13 @@ NOTE: Have a look to wiring schema image
 1. Connect the ESP board to the Ronin's SBUS port:
    - SBUS signal → Transistor 2N2222 or serial inverter (look at wiring schema) -> GPIO pin (as defined in code)
    - GND → GND
-   - 5V → 5V (if needed)  
+   - 5V → 5V (if needed)
+
 NOTE: Have a look to wiring schema image
+
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/DJI_SBUS_pinout.png)
+
+![image](https://github.com/MrColoo/DJI-Ronin-Remote-Controller-ESP32-ESP8266/blob/main/RoninController-wiring_schema.png)
 
 ### 2. Software Setup
 
