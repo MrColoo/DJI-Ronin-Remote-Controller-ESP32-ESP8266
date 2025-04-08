@@ -100,7 +100,7 @@ Example: `ch1:1024` sets channel 1 to center position
 
 ### Using with Chataigne
 
-1. Download from this repo the Chataigne Setup file
+1. Download from this repo the setup file: `RONIN_CONTROL_Chataigne_SetupFile.noisette`
 2. Configure Chataigne's WebSocket module to connect to the device
 3. Map gamepad inputs to WebSocket messages
    -> Use the following value ranges:
